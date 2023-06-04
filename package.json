@@ -1,0 +1,20 @@
+{
+  "name": "chelsea-api",
+  "version": "1.0.0",
+  "description": "API to manage Chelsea team data",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/f00571164/chelsea-api.git"
+  },
+  "keywords": ["soccer", "api", "chelsea"],
+  "author": "Shuaib Abdul Khader",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.14"
+  }
+}
