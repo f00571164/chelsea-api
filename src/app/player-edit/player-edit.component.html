@@ -1,0 +1,9 @@
+<h2>Edit Player</h2>
+
+<form (ngSubmit)="updatePlayer()">
+  <div>
+    <label>Name:</label>
+    <input [(ngModel)]="player.name" name="name">
+  </div>
+  <button type="submit">Update Player</button>
+</form>
